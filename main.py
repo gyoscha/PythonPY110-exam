@@ -1,5 +1,6 @@
 import json
 import random
+from typing import Iterator
 
 from faker import Faker
 
@@ -13,12 +14,12 @@ def main(pk=1):
     :param pk: Счетчик, увеличивающийся на 1 при генерации нового объекта. По умолчанию равен 1.
     :return: Функция ничего не возвращает.
     """
+    gen_book = task(pk)
     for _ in range(100):
-        print(next(task(pk)))
-        pk += 1
+        print(json.dumps(next(gen_book), indent=4, ensure_ascii=False))
 
 
-def task(pk: int) -> str:
+def task(pk: int) -> Iterator[dict]:
     """
     Функция-генератор, которая преобразует словарь, значения которого представляют собой описание книги по различным
     параметрам. Основная задача: сформировать словарь и сделать его более читабельным, преобразовав в Json строку.
@@ -26,24 +27,23 @@ def task(pk: int) -> str:
     :param pk: Счетчик
     :return: Json строка
     """
-    dictionary = {
-        "model": MODEL,
-        "pk": pk,
-        "fields": {
-            "title": title(),
-            "year": year(1800, 2021),
-            "pages": pages(50, 250),
-            "isbn13": isbn13(),
-            "rating": rating(0.0, 5.0),
-            "price": price(500.0, 2500.0),
-            "author": [
-                author(),
-                author()
-            ]
+    while True:
+        dictionary = {
+            "model": MODEL,
+            "pk": pk,
+            "fields": {
+                "title": title(),
+                "year": year(),
+                "pages": pages(),
+                "isbn13": isbn13(),
+                "rating": rating(),
+                "price": price(),
+                "author": author()
+            }
         }
-    }
 
-    yield json.dumps(dictionary, indent=4, ensure_ascii=False)
+        yield dictionary
+        pk += 1
 
 
 def title() -> str:
@@ -56,7 +56,7 @@ def title() -> str:
         return random.choice(file.read().splitlines())
 
 
-def year(min_year: int, max_year: int) -> int:
+def year(min_year: int = 1800, max_year: int = 2021) -> int:
     """
     Функция случайным образом выбирает год из диапазона, который задается динамически.
     Используется модуль random метод randint.
@@ -68,7 +68,7 @@ def year(min_year: int, max_year: int) -> int:
     return random.randint(min_year, max_year)
 
 
-def pages(min_page: int, max_page: int) -> int:
+def pages(min_page: int = 50, max_page: int = 250) -> int:
     """
     Функция случайным образом выбирает количество страниц в книге из диапазона, который задается динамически.
     Используется модуль random метод randint.
@@ -90,7 +90,7 @@ def isbn13() -> str:
     return fake.isbn13()
 
 
-def rating(min_rating: float, max_rating: float) -> float:
+def rating(min_rating: float = 0.0, max_rating: float = 5.0) -> float:
     """
     Функция случайным образом выбирает и округляет до 2-х знаков значение рейтинга в диапазоне от 0 до 5.
     Используется модуль random метод uniform.
@@ -102,7 +102,7 @@ def rating(min_rating: float, max_rating: float) -> float:
     return round(random.uniform(min_rating, max_rating), 2)
 
 
-def price(min_price: float, max_price: float) -> float:
+def price(min_price: float = 500.0, max_price: float = 2500.0) -> float:
     """
     Функция случайным образом выбирает и округляет до 1 знака значение цены на книгу из диапазона,
     который задается динамически.
@@ -115,15 +115,14 @@ def price(min_price: float, max_price: float) -> float:
     return round(random.uniform(min_price, max_price), 1)
 
 
-def author() -> str:
+def author() -> list:
     """
     Функция с помощью модуля Faker и метода name выбирает фэйковое Имя и Фамилию автора.
 
     :return: Имя и Фамилия автора
     """
     fake = Faker()
-    # list_names = [fake.name() for _ in range(3)]
-    return fake.name()
+    return [fake.name() for _ in range(random.randint(1, 3))]
 
 
 if __name__ == '__main__':
