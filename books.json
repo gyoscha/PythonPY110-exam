@@ -1,0 +1,1605 @@
+[{
+    "model": "shop_final.book",
+    "pk": 1,
+    "fields": {
+        "title": "Сто лет одиночества",
+        "year": 1860,
+        "pages": 236,
+        "isbn13": "978-1-5317-4295-9",
+        "rating": 4.39,
+        "price": 2222.3,
+        "author": [
+            "Deborah King"
+        ]
+    }
+},
+{
+    "model": "shop_final.book",
+    "pk": 2,
+    "fields": {
+        "title": "Сто лет одиночества",
+        "year": 1829,
+        "pages": 52,
+        "isbn13": "978-0-06-471082-4",
+        "rating": 3.33,
+        "price": 1845.6,
+        "author": [
+            "Katherine Gonzalez"
+        ]
+    }
+},
+{
+    "model": "shop_final.book",
+    "pk": 3,
+    "fields": {
+        "title": "Над кукушкиным гнездом",
+        "year": 1993,
+        "pages": 245,
+        "isbn13": "978-0-7455-4305-5",
+        "rating": 1.18,
+        "price": 2122.4,
+        "author": [
+            "Jeff Kennedy",
+            "Richard Nguyen",
+            "Anna Schneider"
+        ]
+    }
+},
+{
+    "model": "shop_final.book",
+    "pk": 4,
+    "fields": {
+        "title": "Сто лет одиночества",
+        "year": 1821,
+        "pages": 233,
+        "isbn13": "978-0-7585-4112-3",
+        "rating": 2.51,
+        "price": 679.9,
+        "author": [
+            "Peter Robertson",
+            "Shannon Garner"
+        ]
+    }
+},
+{
+    "model": "shop_final.book",
+    "pk": 5,
+    "fields": {
+        "title": "Вино из одуванчиков",
+        "year": 1928,
+        "pages": 224,
+        "isbn13": "978-0-513-86910-3",
+        "rating": 2.22,
+        "price": 1426.8,
+        "author": [
+            "Michael Gamble"
+        ]
+    }
+},
+{
+    "model": "shop_final.book",
+    "pk": 6,
+    "fields": {
+        "title": "Сто лет одиночества",
+        "year": 1851,
+        "pages": 248,
+        "isbn13": "978-1-4479-6704-0",
+        "rating": 2.23,
+        "price": 1637.8,
+        "author": [
+            "William Lawrence",
+            "Marc Johnson"
+        ]
+    }
+},
+{
+    "model": "shop_final.book",
+    "pk": 7,
+    "fields": {
+        "title": "Над кукушкиным гнездом",
+        "year": 2015,
+        "pages": 249,
+        "isbn13": "978-1-160-62766-5",
+        "rating": 2.22,
+        "price": 1412.7,
+        "author": [
+            "David Wilson",
+            "Paul Nelson"
+        ]
+    }
+},
+{
+    "model": "shop_final.book",
+    "pk": 8,
+    "fields": {
+        "title": "Сто лет одиночества",
+        "year": 1989,
+        "pages": 249,
+        "isbn13": "978-0-319-73239-7",
+        "rating": 0.72,
+        "price": 885.3,
+        "author": [
+            "Ryan Long"
+        ]
+    }
+},
+{
+    "model": "shop_final.book",
+    "pk": 9,
+    "fields": {
+        "title": "Сто лет одиночества",
+        "year": 1992,
+        "pages": 64,
+        "isbn13": "978-1-229-34051-1",
+        "rating": 1.4,
+        "price": 1058.7,
+        "author": [
+            "Heather Nelson",
+            "Peggy Garcia",
+            "Scott Hamilton"
+        ]
+    }
+},
+{
+    "model": "shop_final.book",
+    "pk": 10,
+    "fields": {
+        "title": "Вино из одуванчиков",
+        "year": 1956,
+        "pages": 187,
+        "isbn13": "978-0-439-52496-4",
+        "rating": 1.99,
+        "price": 2419.9,
+        "author": [
+            "Charles Russell",
+            "Shane Howe"
+        ]
+    }
+},
+{
+    "model": "shop_final.book",
+    "pk": 11,
+    "fields": {
+        "title": "Сто лет одиночества",
+        "year": 1845,
+        "pages": 96,
+        "isbn13": "978-1-04-568113-3",
+        "rating": 4.42,
+        "price": 1898.9,
+        "author": [
+            "Christine Mercado",
+            "Dalton Gillespie"
+        ]
+    }
+},
+{
+    "model": "shop_final.book",
+    "pk": 12,
+    "fields": {
+        "title": "Человек, который принял жену за шляпу",
+        "year": 1800,
+        "pages": 248,
+        "isbn13": "978-1-5222-2039-8",
+        "rating": 3.63,
+        "price": 519.7,
+        "author": [
+            "Heather Jackson",
+            "Ashley Smith"
+        ]
+    }
+},
+{
+    "model": "shop_final.book",
+    "pk": 13,
+    "fields": {
+        "title": "Человек, который принял жену за шляпу",
+        "year": 1930,
+        "pages": 231,
+        "isbn13": "978-0-307-16376-9",
+        "rating": 1.82,
+        "price": 2042.4,
+        "author": [
+            "Christine Taylor",
+            "Jennifer Freeman",
+            "Bailey Jordan"
+        ]
+    }
+},
+{
+    "model": "shop_final.book",
+    "pk": 14,
+    "fields": {
+        "title": "Над кукушкиным гнездом",
+        "year": 1829,
+        "pages": 58,
+        "isbn13": "978-1-955623-85-8",
+        "rating": 1.76,
+        "price": 2351.8,
+        "author": [
+            "Joseph Marks",
+            "Catherine Gonzalez"
+        ]
+    }
+},
+{
+    "model": "shop_final.book",
+    "pk": 15,
+    "fields": {
+        "title": "Сто лет одиночества",
+        "year": 1977,
+        "pages": 155,
+        "isbn13": "978-1-58149-158-6",
+        "rating": 0.38,
+        "price": 2380.7,
+        "author": [
+            "Kathryn Long",
+            "Susan Galvan",
+            "Christopher Gutierrez"
+        ]
+    }
+},
+{
+    "model": "shop_final.book",
+    "pk": 16,
+    "fields": {
+        "title": "Вино из одуванчиков",
+        "year": 1939,
+        "pages": 139,
+        "isbn13": "978-0-622-00521-8",
+        "rating": 1.6,
+        "price": 929.7,
+        "author": [
+            "Austin Kelly",
+            "Hannah Davis"
+        ]
+    }
+},
+{
+    "model": "shop_final.book",
+    "pk": 17,
+    "fields": {
+        "title": "Сто лет одиночества",
+        "year": 2010,
+        "pages": 172,
+        "isbn13": "978-0-00-426850-7",
+        "rating": 2.67,
+        "price": 2179.6,
+        "author": [
+            "Michael Ortiz",
+            "Christopher Sanders",
+            "Christopher Mann"
+        ]
+    }
+},
+{
+    "model": "shop_final.book",
+    "pk": 18,
+    "fields": {
+        "title": "Сто лет одиночества",
+        "year": 1832,
+        "pages": 199,
+        "isbn13": "978-0-02-296734-5",
+        "rating": 2.6,
+        "price": 2419.3,
+        "author": [
+            "Rebecca Adams",
+            "Debra Wright",
+            "Anthony Stevens"
+        ]
+    }
+},
+{
+    "model": "shop_final.book",
+    "pk": 19,
+    "fields": {
+        "title": "Сто лет одиночества",
+        "year": 1906,
+        "pages": 57,
+        "isbn13": "978-1-137-86742-1",
+        "rating": 2.67,
+        "price": 1445.0,
+        "author": [
+            "Norman Adams",
+            "Tyler Johnson",
+            "Alyssa Smith"
+        ]
+    }
+},
+{
+    "model": "shop_final.book",
+    "pk": 20,
+    "fields": {
+        "title": "Сто лет одиночества",
+        "year": 1961,
+        "pages": 79,
+        "isbn13": "978-1-4199-7823-4",
+        "rating": 1.08,
+        "price": 2416.5,
+        "author": [
+            "Nicholas Fletcher",
+            "Barry Baldwin"
+        ]
+    }
+},
+{
+    "model": "shop_final.book",
+    "pk": 21,
+    "fields": {
+        "title": "Вино из одуванчиков",
+        "year": 1921,
+        "pages": 89,
+        "isbn13": "978-1-239-01299-6",
+        "rating": 0.82,
+        "price": 925.3,
+        "author": [
+            "Ana Welch",
+            "Heidi Richardson",
+            "Sandra Watson"
+        ]
+    }
+},
+{
+    "model": "shop_final.book",
+    "pk": 22,
+    "fields": {
+        "title": "Человек, который принял жену за шляпу",
+        "year": 1975,
+        "pages": 204,
+        "isbn13": "978-0-18-044303-3",
+        "rating": 3.98,
+        "price": 728.3,
+        "author": [
+            "Tara King"
+        ]
+    }
+},
+{
+    "model": "shop_final.book",
+    "pk": 23,
+    "fields": {
+        "title": "Вино из одуванчиков",
+        "year": 1818,
+        "pages": 196,
+        "isbn13": "978-0-86140-988-4",
+        "rating": 4.63,
+        "price": 705.8,
+        "author": [
+            "Teresa Cox",
+            "Michael Calhoun",
+            "Sarah Sullivan"
+        ]
+    }
+},
+{
+    "model": "shop_final.book",
+    "pk": 24,
+    "fields": {
+        "title": "Человек, который принял жену за шляпу",
+        "year": 1891,
+        "pages": 154,
+        "isbn13": "978-0-215-31091-0",
+        "rating": 2.53,
+        "price": 743.1,
+        "author": [
+            "Deborah Lyons",
+            "Donald Evans",
+            "Melissa Fernandez"
+        ]
+    }
+},
+{
+    "model": "shop_final.book",
+    "pk": 25,
+    "fields": {
+        "title": "Сто лет одиночества",
+        "year": 1833,
+        "pages": 193,
+        "isbn13": "978-0-9837902-6-6",
+        "rating": 4.19,
+        "price": 1191.3,
+        "author": [
+            "Clarence Haley",
+            "Kelly Williams",
+            "Joann Cook"
+        ]
+    }
+},
+{
+    "model": "shop_final.book",
+    "pk": 26,
+    "fields": {
+        "title": "Над кукушкиным гнездом",
+        "year": 1945,
+        "pages": 215,
+        "isbn13": "978-0-913193-35-8",
+        "rating": 2.33,
+        "price": 1788.5,
+        "author": [
+            "Edward Bates",
+            "Kevin Hogan",
+            "Connie Aguilar"
+        ]
+    }
+},
+{
+    "model": "shop_final.book",
+    "pk": 27,
+    "fields": {
+        "title": "Сто лет одиночества",
+        "year": 1926,
+        "pages": 169,
+        "isbn13": "978-1-80465-050-9",
+        "rating": 4.44,
+        "price": 777.2,
+        "author": [
+            "Richard Grimes"
+        ]
+    }
+},
+{
+    "model": "shop_final.book",
+    "pk": 28,
+    "fields": {
+        "title": "Человек, который принял жену за шляпу",
+        "year": 1902,
+        "pages": 127,
+        "isbn13": "978-0-697-14645-8",
+        "rating": 1.19,
+        "price": 1834.2,
+        "author": [
+            "Thomas Berry",
+            "Travis Armstrong"
+        ]
+    }
+},
+{
+    "model": "shop_final.book",
+    "pk": 29,
+    "fields": {
+        "title": "Сто лет одиночества",
+        "year": 1811,
+        "pages": 134,
+        "isbn13": "978-1-01-217166-7",
+        "rating": 1.2,
+        "price": 710.9,
+        "author": [
+            "Michael Hayes",
+            "Stacy Key",
+            "Gregory Leonard"
+        ]
+    }
+},
+{
+    "model": "shop_final.book",
+    "pk": 30,
+    "fields": {
+        "title": "Человек, который принял жену за шляпу",
+        "year": 2003,
+        "pages": 249,
+        "isbn13": "978-0-604-75451-6",
+        "rating": 1.95,
+        "price": 2020.2,
+        "author": [
+            "Stephanie Moore"
+        ]
+    }
+},
+{
+    "model": "shop_final.book",
+    "pk": 31,
+    "fields": {
+        "title": "Над пропастью во ржи",
+        "year": 2006,
+        "pages": 51,
+        "isbn13": "978-1-4656-9986-2",
+        "rating": 4.54,
+        "price": 812.9,
+        "author": [
+            "Nathan Smith",
+            "Robert Anderson",
+            "Mark Carr"
+        ]
+    }
+},
+{
+    "model": "shop_final.book",
+    "pk": 32,
+    "fields": {
+        "title": "Вино из одуванчиков",
+        "year": 2017,
+        "pages": 88,
+        "isbn13": "978-1-5324-0880-9",
+        "rating": 0.63,
+        "price": 2392.7,
+        "author": [
+            "Christopher Lopez",
+            "Sarah Williams"
+        ]
+    }
+},
+{
+    "model": "shop_final.book",
+    "pk": 33,
+    "fields": {
+        "title": "Вино из одуванчиков",
+        "year": 1866,
+        "pages": 122,
+        "isbn13": "978-0-609-99890-8",
+        "rating": 0.04,
+        "price": 760.3,
+        "author": [
+            "Angie Morris",
+            "Marvin Taylor",
+            "Dawn Powers"
+        ]
+    }
+},
+{
+    "model": "shop_final.book",
+    "pk": 34,
+    "fields": {
+        "title": "Над кукушкиным гнездом",
+        "year": 1906,
+        "pages": 207,
+        "isbn13": "978-1-902584-14-0",
+        "rating": 0.62,
+        "price": 1122.6,
+        "author": [
+            "Greg Dunn"
+        ]
+    }
+},
+{
+    "model": "shop_final.book",
+    "pk": 35,
+    "fields": {
+        "title": "Человек, который принял жену за шляпу",
+        "year": 2021,
+        "pages": 219,
+        "isbn13": "978-1-260-10121-8",
+        "rating": 2.34,
+        "price": 896.4,
+        "author": [
+            "Courtney Logan"
+        ]
+    }
+},
+{
+    "model": "shop_final.book",
+    "pk": 36,
+    "fields": {
+        "title": "Вино из одуванчиков",
+        "year": 1944,
+        "pages": 123,
+        "isbn13": "978-1-970636-38-3",
+        "rating": 2.07,
+        "price": 597.3,
+        "author": [
+            "Ian Chavez",
+            "Carmen Thompson"
+        ]
+    }
+},
+{
+    "model": "shop_final.book",
+    "pk": 37,
+    "fields": {
+        "title": "Над кукушкиным гнездом",
+        "year": 1934,
+        "pages": 184,
+        "isbn13": "978-1-117-07704-8",
+        "rating": 4.2,
+        "price": 1909.8,
+        "author": [
+            "Timothy Townsend"
+        ]
+    }
+},
+{
+    "model": "shop_final.book",
+    "pk": 38,
+    "fields": {
+        "title": "Над кукушкиным гнездом",
+        "year": 1973,
+        "pages": 62,
+        "isbn13": "978-0-934695-03-9",
+        "rating": 3.64,
+        "price": 648.1,
+        "author": [
+            "Bonnie Davis"
+        ]
+    }
+},
+{
+    "model": "shop_final.book",
+    "pk": 39,
+    "fields": {
+        "title": "Сто лет одиночества",
+        "year": 1805,
+        "pages": 123,
+        "isbn13": "978-1-55435-863-2",
+        "rating": 1.12,
+        "price": 2082.1,
+        "author": [
+            "Tommy Goodman",
+            "Ann Scott"
+        ]
+    }
+},
+{
+    "model": "shop_final.book",
+    "pk": 40,
+    "fields": {
+        "title": "Над кукушкиным гнездом",
+        "year": 1874,
+        "pages": 156,
+        "isbn13": "978-1-206-83379-1",
+        "rating": 3.98,
+        "price": 1040.9,
+        "author": [
+            "Julia Brown",
+            "Jeremy Fritz"
+        ]
+    }
+},
+{
+    "model": "shop_final.book",
+    "pk": 41,
+    "fields": {
+        "title": "Вино из одуванчиков",
+        "year": 1867,
+        "pages": 185,
+        "isbn13": "978-0-674-77454-4",
+        "rating": 4.8,
+        "price": 1875.8,
+        "author": [
+            "Steven Moody",
+            "Crystal Kidd",
+            "Alicia Cunningham"
+        ]
+    }
+},
+{
+    "model": "shop_final.book",
+    "pk": 42,
+    "fields": {
+        "title": "Человек, который принял жену за шляпу",
+        "year": 1937,
+        "pages": 160,
+        "isbn13": "978-0-10-195156-2",
+        "rating": 2.55,
+        "price": 1116.7,
+        "author": [
+            "Thomas Hudson"
+        ]
+    }
+},
+{
+    "model": "shop_final.book",
+    "pk": 43,
+    "fields": {
+        "title": "Над кукушкиным гнездом",
+        "year": 1874,
+        "pages": 154,
+        "isbn13": "978-0-443-89343-8",
+        "rating": 0.09,
+        "price": 1843.3,
+        "author": [
+            "Annette Cox",
+            "Amanda Richards"
+        ]
+    }
+},
+{
+    "model": "shop_final.book",
+    "pk": 44,
+    "fields": {
+        "title": "Вино из одуванчиков",
+        "year": 1916,
+        "pages": 172,
+        "isbn13": "978-1-64022-985-3",
+        "rating": 2.27,
+        "price": 1025.7,
+        "author": [
+            "Henry Mcclain"
+        ]
+    }
+},
+{
+    "model": "shop_final.book",
+    "pk": 45,
+    "fields": {
+        "title": "Над пропастью во ржи",
+        "year": 1813,
+        "pages": 124,
+        "isbn13": "978-1-08-752700-0",
+        "rating": 1.12,
+        "price": 517.5,
+        "author": [
+            "Timothy Martin",
+            "Jennifer Tate"
+        ]
+    }
+},
+{
+    "model": "shop_final.book",
+    "pk": 46,
+    "fields": {
+        "title": "Человек, который принял жену за шляпу",
+        "year": 1923,
+        "pages": 107,
+        "isbn13": "978-0-15-116539-1",
+        "rating": 2.21,
+        "price": 1220.2,
+        "author": [
+            "David Perez"
+        ]
+    }
+},
+{
+    "model": "shop_final.book",
+    "pk": 47,
+    "fields": {
+        "title": "Над пропастью во ржи",
+        "year": 1936,
+        "pages": 62,
+        "isbn13": "978-1-4334-9955-5",
+        "rating": 2.83,
+        "price": 2263.1,
+        "author": [
+            "Marcus Hill"
+        ]
+    }
+},
+{
+    "model": "shop_final.book",
+    "pk": 48,
+    "fields": {
+        "title": "Вино из одуванчиков",
+        "year": 1803,
+        "pages": 223,
+        "isbn13": "978-0-7523-1139-5",
+        "rating": 2.21,
+        "price": 2049.8,
+        "author": [
+            "Leah Brewer",
+            "Monica Howard",
+            "Shannon Flores"
+        ]
+    }
+},
+{
+    "model": "shop_final.book",
+    "pk": 49,
+    "fields": {
+        "title": "Над кукушкиным гнездом",
+        "year": 1815,
+        "pages": 190,
+        "isbn13": "978-1-4065-2782-7",
+        "rating": 1.4,
+        "price": 744.7,
+        "author": [
+            "Thomas Dean",
+            "Laura Miller",
+            "Teresa Cruz"
+        ]
+    }
+},
+{
+    "model": "shop_final.book",
+    "pk": 50,
+    "fields": {
+        "title": "Сто лет одиночества",
+        "year": 1846,
+        "pages": 217,
+        "isbn13": "978-1-62136-596-9",
+        "rating": 0.43,
+        "price": 888.6,
+        "author": [
+            "Kyle Perez",
+            "Larry Stephens"
+        ]
+    }
+},
+{
+    "model": "shop_final.book",
+    "pk": 51,
+    "fields": {
+        "title": "Сто лет одиночества",
+        "year": 1987,
+        "pages": 68,
+        "isbn13": "978-1-71702-712-2",
+        "rating": 1.27,
+        "price": 2070.5,
+        "author": [
+            "Angela Carlson",
+            "James Barber",
+            "Daniel Rodriguez"
+        ]
+    }
+},
+{
+    "model": "shop_final.book",
+    "pk": 52,
+    "fields": {
+        "title": "Над кукушкиным гнездом",
+        "year": 1883,
+        "pages": 205,
+        "isbn13": "978-0-88146-871-7",
+        "rating": 0.26,
+        "price": 2248.4,
+        "author": [
+            "Erika Collins",
+            "Cathy Green"
+        ]
+    }
+},
+{
+    "model": "shop_final.book",
+    "pk": 53,
+    "fields": {
+        "title": "Человек, который принял жену за шляпу",
+        "year": 1915,
+        "pages": 84,
+        "isbn13": "978-1-293-84683-4",
+        "rating": 4.8,
+        "price": 1584.3,
+        "author": [
+            "Tyler Long",
+            "Connie Richardson"
+        ]
+    }
+},
+{
+    "model": "shop_final.book",
+    "pk": 54,
+    "fields": {
+        "title": "Сто лет одиночества",
+        "year": 1917,
+        "pages": 241,
+        "isbn13": "978-1-80291-777-2",
+        "rating": 0.69,
+        "price": 1338.7,
+        "author": [
+            "Jason Gill",
+            "Jose Lopez",
+            "Ashley Ortega"
+        ]
+    }
+},
+{
+    "model": "shop_final.book",
+    "pk": 55,
+    "fields": {
+        "title": "Человек, который принял жену за шляпу",
+        "year": 1916,
+        "pages": 220,
+        "isbn13": "978-1-288-64618-0",
+        "rating": 0.83,
+        "price": 2390.5,
+        "author": [
+            "Jessica Peterson",
+            "James Moore"
+        ]
+    }
+},
+{
+    "model": "shop_final.book",
+    "pk": 56,
+    "fields": {
+        "title": "Над пропастью во ржи",
+        "year": 1901,
+        "pages": 67,
+        "isbn13": "978-1-327-23750-8",
+        "rating": 2.91,
+        "price": 1670.7,
+        "author": [
+            "Ariel Obrien"
+        ]
+    }
+},
+{
+    "model": "shop_final.book",
+    "pk": 57,
+    "fields": {
+        "title": "Сто лет одиночества",
+        "year": 1800,
+        "pages": 117,
+        "isbn13": "978-0-8039-1607-4",
+        "rating": 2.39,
+        "price": 1093.5,
+        "author": [
+            "Stephanie Jones",
+            "Theresa Brown"
+        ]
+    }
+},
+{
+    "model": "shop_final.book",
+    "pk": 58,
+    "fields": {
+        "title": "Над кукушкиным гнездом",
+        "year": 1896,
+        "pages": 97,
+        "isbn13": "978-1-894609-02-9",
+        "rating": 0.12,
+        "price": 784.9,
+        "author": [
+            "Mr. Jorge Gonzales MD",
+            "Stacey Proctor",
+            "Victoria Barker"
+        ]
+    }
+},
+{
+    "model": "shop_final.book",
+    "pk": 59,
+    "fields": {
+        "title": "Вино из одуванчиков",
+        "year": 1833,
+        "pages": 228,
+        "isbn13": "978-1-78356-560-3",
+        "rating": 3.46,
+        "price": 861.7,
+        "author": [
+            "Cory Pena"
+        ]
+    }
+},
+{
+    "model": "shop_final.book",
+    "pk": 60,
+    "fields": {
+        "title": "Над кукушкиным гнездом",
+        "year": 1876,
+        "pages": 186,
+        "isbn13": "978-1-363-76177-7",
+        "rating": 2.12,
+        "price": 1721.5,
+        "author": [
+            "Mrs. Tiffany Robinson",
+            "Kenneth Martinez"
+        ]
+    }
+},
+{
+    "model": "shop_final.book",
+    "pk": 61,
+    "fields": {
+        "title": "Над кукушкиным гнездом",
+        "year": 1802,
+        "pages": 73,
+        "isbn13": "978-0-15-072967-9",
+        "rating": 3.48,
+        "price": 2467.8,
+        "author": [
+            "Francisco Wilson",
+            "Holly Singleton"
+        ]
+    }
+},
+{
+    "model": "shop_final.book",
+    "pk": 62,
+    "fields": {
+        "title": "Над пропастью во ржи",
+        "year": 2003,
+        "pages": 144,
+        "isbn13": "978-1-5133-0041-2",
+        "rating": 0.56,
+        "price": 1001.5,
+        "author": [
+            "Bradley Robbins",
+            "Harry Powell"
+        ]
+    }
+},
+{
+    "model": "shop_final.book",
+    "pk": 63,
+    "fields": {
+        "title": "Над кукушкиным гнездом",
+        "year": 1950,
+        "pages": 214,
+        "isbn13": "978-1-886972-02-5",
+        "rating": 2.08,
+        "price": 2361.0,
+        "author": [
+            "Amanda Jones"
+        ]
+    }
+},
+{
+    "model": "shop_final.book",
+    "pk": 64,
+    "fields": {
+        "title": "Человек, который принял жену за шляпу",
+        "year": 1823,
+        "pages": 63,
+        "isbn13": "978-0-684-50831-3",
+        "rating": 1.28,
+        "price": 1853.3,
+        "author": [
+            "Mark Gonzalez"
+        ]
+    }
+},
+{
+    "model": "shop_final.book",
+    "pk": 65,
+    "fields": {
+        "title": "Сто лет одиночества",
+        "year": 1962,
+        "pages": 222,
+        "isbn13": "978-0-515-85067-3",
+        "rating": 0.49,
+        "price": 1125.7,
+        "author": [
+            "Brittany Ward",
+            "Clayton Petersen"
+        ]
+    }
+},
+{
+    "model": "shop_final.book",
+    "pk": 66,
+    "fields": {
+        "title": "Вино из одуванчиков",
+        "year": 1928,
+        "pages": 138,
+        "isbn13": "978-1-4728-3648-9",
+        "rating": 1.12,
+        "price": 2100.8,
+        "author": [
+            "Alison White"
+        ]
+    }
+},
+{
+    "model": "shop_final.book",
+    "pk": 67,
+    "fields": {
+        "title": "Вино из одуванчиков",
+        "year": 1922,
+        "pages": 110,
+        "isbn13": "978-0-12-227461-9",
+        "rating": 1.75,
+        "price": 1739.1,
+        "author": [
+            "Austin Velasquez",
+            "Stephen Wagner"
+        ]
+    }
+},
+{
+    "model": "shop_final.book",
+    "pk": 68,
+    "fields": {
+        "title": "Человек, который принял жену за шляпу",
+        "year": 1990,
+        "pages": 173,
+        "isbn13": "978-1-5237-1029-4",
+        "rating": 3.44,
+        "price": 1283.9,
+        "author": [
+            "Dana Robinson"
+        ]
+    }
+},
+{
+    "model": "shop_final.book",
+    "pk": 69,
+    "fields": {
+        "title": "Сто лет одиночества",
+        "year": 1853,
+        "pages": 177,
+        "isbn13": "978-0-8022-2923-6",
+        "rating": 1.03,
+        "price": 1705.8,
+        "author": [
+            "Ryan Flores"
+        ]
+    }
+},
+{
+    "model": "shop_final.book",
+    "pk": 70,
+    "fields": {
+        "title": "Над пропастью во ржи",
+        "year": 1819,
+        "pages": 64,
+        "isbn13": "978-1-4417-1582-1",
+        "rating": 0.28,
+        "price": 1718.8,
+        "author": [
+            "Wayne Holloway",
+            "Victoria Dillon",
+            "Tracy Brown"
+        ]
+    }
+},
+{
+    "model": "shop_final.book",
+    "pk": 71,
+    "fields": {
+        "title": "Вино из одуванчиков",
+        "year": 1961,
+        "pages": 222,
+        "isbn13": "978-0-16-151266-6",
+        "rating": 4.18,
+        "price": 2464.6,
+        "author": [
+            "Sarah Deleon"
+        ]
+    }
+},
+{
+    "model": "shop_final.book",
+    "pk": 72,
+    "fields": {
+        "title": "Над пропастью во ржи",
+        "year": 1819,
+        "pages": 94,
+        "isbn13": "978-0-7588-4016-5",
+        "rating": 1.34,
+        "price": 837.7,
+        "author": [
+            "Marc Obrien",
+            "Susan Meyers"
+        ]
+    }
+},
+{
+    "model": "shop_final.book",
+    "pk": 73,
+    "fields": {
+        "title": "Сто лет одиночества",
+        "year": 1827,
+        "pages": 90,
+        "isbn13": "978-1-942474-23-4",
+        "rating": 0.25,
+        "price": 2068.1,
+        "author": [
+            "Alfred Smith",
+            "Rhonda Cameron",
+            "Dr. Matthew Mays"
+        ]
+    }
+},
+{
+    "model": "shop_final.book",
+    "pk": 74,
+    "fields": {
+        "title": "Над пропастью во ржи",
+        "year": 1947,
+        "pages": 110,
+        "isbn13": "978-1-05-393089-6",
+        "rating": 4.47,
+        "price": 605.0,
+        "author": [
+            "Spencer Wilson"
+        ]
+    }
+},
+{
+    "model": "shop_final.book",
+    "pk": 75,
+    "fields": {
+        "title": "Над кукушкиным гнездом",
+        "year": 1934,
+        "pages": 165,
+        "isbn13": "978-1-70390-163-4",
+        "rating": 3.25,
+        "price": 2417.5,
+        "author": [
+            "Rebecca Owens",
+            "Pamela Hunt",
+            "Michelle Bailey"
+        ]
+    }
+},
+{
+    "model": "shop_final.book",
+    "pk": 76,
+    "fields": {
+        "title": "Человек, который принял жену за шляпу",
+        "year": 1824,
+        "pages": 203,
+        "isbn13": "978-1-70512-958-6",
+        "rating": 2.0,
+        "price": 2004.9,
+        "author": [
+            "Deborah Woodward",
+            "William Hill"
+        ]
+    }
+},
+{
+    "model": "shop_final.book",
+    "pk": 77,
+    "fields": {
+        "title": "Сто лет одиночества",
+        "year": 1818,
+        "pages": 155,
+        "isbn13": "978-0-13-076803-2",
+        "rating": 2.57,
+        "price": 953.6,
+        "author": [
+            "Jordan Lee"
+        ]
+    }
+},
+{
+    "model": "shop_final.book",
+    "pk": 78,
+    "fields": {
+        "title": "Сто лет одиночества",
+        "year": 1857,
+        "pages": 202,
+        "isbn13": "978-1-180-34928-8",
+        "rating": 2.24,
+        "price": 2243.1,
+        "author": [
+            "Jason Avila",
+            "Alicia Davis"
+        ]
+    }
+},
+{
+    "model": "shop_final.book",
+    "pk": 79,
+    "fields": {
+        "title": "Над пропастью во ржи",
+        "year": 1817,
+        "pages": 115,
+        "isbn13": "978-1-74930-160-3",
+        "rating": 3.77,
+        "price": 667.0,
+        "author": [
+            "Lisa Avila",
+            "Ralph Johnson",
+            "Brandon Roberson"
+        ]
+    }
+},
+{
+    "model": "shop_final.book",
+    "pk": 80,
+    "fields": {
+        "title": "Вино из одуванчиков",
+        "year": 1811,
+        "pages": 92,
+        "isbn13": "978-0-7135-1803-0",
+        "rating": 4.22,
+        "price": 2442.5,
+        "author": [
+            "Daniel Knight"
+        ]
+    }
+},
+{
+    "model": "shop_final.book",
+    "pk": 81,
+    "fields": {
+        "title": "Вино из одуванчиков",
+        "year": 1962,
+        "pages": 101,
+        "isbn13": "978-0-681-65581-2",
+        "rating": 2.87,
+        "price": 1309.3,
+        "author": [
+            "Hunter West",
+            "Angela Harris"
+        ]
+    }
+},
+{
+    "model": "shop_final.book",
+    "pk": 82,
+    "fields": {
+        "title": "Над кукушкиным гнездом",
+        "year": 1927,
+        "pages": 212,
+        "isbn13": "978-1-59172-545-9",
+        "rating": 3.49,
+        "price": 1361.2,
+        "author": [
+            "Matthew Murillo",
+            "Mary Medina"
+        ]
+    }
+},
+{
+    "model": "shop_final.book",
+    "pk": 83,
+    "fields": {
+        "title": "Над пропастью во ржи",
+        "year": 1893,
+        "pages": 196,
+        "isbn13": "978-0-86180-686-7",
+        "rating": 4.22,
+        "price": 1016.1,
+        "author": [
+            "David Rios"
+        ]
+    }
+},
+{
+    "model": "shop_final.book",
+    "pk": 84,
+    "fields": {
+        "title": "Над пропастью во ржи",
+        "year": 2018,
+        "pages": 114,
+        "isbn13": "978-1-81643-770-9",
+        "rating": 3.61,
+        "price": 913.5,
+        "author": [
+            "Jaime Bell",
+            "Vincent Thomas",
+            "Michael Fisher"
+        ]
+    }
+},
+{
+    "model": "shop_final.book",
+    "pk": 85,
+    "fields": {
+        "title": "Вино из одуванчиков",
+        "year": 1911,
+        "pages": 119,
+        "isbn13": "978-1-162-61894-4",
+        "rating": 3.77,
+        "price": 925.6,
+        "author": [
+            "Alex Maldonado",
+            "David Evans",
+            "Andrew Hanna"
+        ]
+    }
+},
+{
+    "model": "shop_final.book",
+    "pk": 86,
+    "fields": {
+        "title": "Вино из одуванчиков",
+        "year": 1918,
+        "pages": 112,
+        "isbn13": "978-1-353-59577-1",
+        "rating": 4.09,
+        "price": 2054.0,
+        "author": [
+            "Jason Stephens"
+        ]
+    }
+},
+{
+    "model": "shop_final.book",
+    "pk": 87,
+    "fields": {
+        "title": "Над кукушкиным гнездом",
+        "year": 1912,
+        "pages": 158,
+        "isbn13": "978-1-75153-172-2",
+        "rating": 4.38,
+        "price": 1402.2,
+        "author": [
+            "Wesley Castillo",
+            "Jacob Mcclain MD",
+            "Evelyn Bradley"
+        ]
+    }
+},
+{
+    "model": "shop_final.book",
+    "pk": 88,
+    "fields": {
+        "title": "Над кукушкиным гнездом",
+        "year": 1871,
+        "pages": 132,
+        "isbn13": "978-1-971478-97-5",
+        "rating": 1.63,
+        "price": 2279.3,
+        "author": [
+            "John Williams",
+            "Jennifer Moon",
+            "Jonathan Atkinson"
+        ]
+    }
+},
+{
+    "model": "shop_final.book",
+    "pk": 89,
+    "fields": {
+        "title": "Сто лет одиночества",
+        "year": 1966,
+        "pages": 167,
+        "isbn13": "978-0-8128-6294-2",
+        "rating": 0.72,
+        "price": 1178.5,
+        "author": [
+            "Amy Webb",
+            "Gary Carter"
+        ]
+    }
+},
+{
+    "model": "shop_final.book",
+    "pk": 90,
+    "fields": {
+        "title": "Человек, который принял жену за шляпу",
+        "year": 1812,
+        "pages": 244,
+        "isbn13": "978-1-991917-95-9",
+        "rating": 2.42,
+        "price": 641.4,
+        "author": [
+            "Brett Hamilton",
+            "Sean Collier",
+            "Kelsey Harris"
+        ]
+    }
+},
+{
+    "model": "shop_final.book",
+    "pk": 91,
+    "fields": {
+        "title": "Человек, который принял жену за шляпу",
+        "year": 2018,
+        "pages": 92,
+        "isbn13": "978-1-69047-027-4",
+        "rating": 1.34,
+        "price": 736.3,
+        "author": [
+            "Samantha Carroll",
+            "Daniel Hanson",
+            "Gloria Nguyen"
+        ]
+    }
+},
+{
+    "model": "shop_final.book",
+    "pk": 92,
+    "fields": {
+        "title": "Сто лет одиночества",
+        "year": 1948,
+        "pages": 141,
+        "isbn13": "978-1-7371015-1-2",
+        "rating": 1.58,
+        "price": 542.8,
+        "author": [
+            "Laura Griffin",
+            "Matthew Carter",
+            "Katelyn Allen"
+        ]
+    }
+},
+{
+    "model": "shop_final.book",
+    "pk": 93,
+    "fields": {
+        "title": "Человек, который принял жену за шляпу",
+        "year": 1903,
+        "pages": 220,
+        "isbn13": "978-1-08-409279-2",
+        "rating": 2.01,
+        "price": 2413.5,
+        "author": [
+            "Tina Jackson"
+        ]
+    }
+},
+{
+    "model": "shop_final.book",
+    "pk": 94,
+    "fields": {
+        "title": "Над кукушкиным гнездом",
+        "year": 1975,
+        "pages": 159,
+        "isbn13": "978-0-598-27891-3",
+        "rating": 0.11,
+        "price": 1416.6,
+        "author": [
+            "Elizabeth Woods",
+            "Jill Jackson",
+            "James Hill"
+        ]
+    }
+},
+{
+    "model": "shop_final.book",
+    "pk": 95,
+    "fields": {
+        "title": "Вино из одуванчиков",
+        "year": 1949,
+        "pages": 184,
+        "isbn13": "978-0-419-94889-6",
+        "rating": 4.78,
+        "price": 2103.3,
+        "author": [
+            "Tyler Morgan",
+            "Mercedes Cole",
+            "William Rodriguez Jr."
+        ]
+    }
+},
+{
+    "model": "shop_final.book",
+    "pk": 96,
+    "fields": {
+        "title": "Вино из одуванчиков",
+        "year": 1850,
+        "pages": 167,
+        "isbn13": "978-0-12-326536-4",
+        "rating": 3.34,
+        "price": 2029.1,
+        "author": [
+            "Linda Pennington",
+            "Cory Brown",
+            "Lauren Hebert"
+        ]
+    }
+},
+{
+    "model": "shop_final.book",
+    "pk": 97,
+    "fields": {
+        "title": "Вино из одуванчиков",
+        "year": 1985,
+        "pages": 212,
+        "isbn13": "978-0-646-54867-8",
+        "rating": 4.72,
+        "price": 516.4,
+        "author": [
+            "Aaron Park",
+            "Julian Fisher"
+        ]
+    }
+},
+{
+    "model": "shop_final.book",
+    "pk": 98,
+    "fields": {
+        "title": "Человек, который принял жену за шляпу",
+        "year": 1980,
+        "pages": 177,
+        "isbn13": "978-0-9783502-5-3",
+        "rating": 3.2,
+        "price": 925.8,
+        "author": [
+            "Sarah Pace"
+        ]
+    }
+},
+{
+    "model": "shop_final.book",
+    "pk": 99,
+    "fields": {
+        "title": "Над кукушкиным гнездом",
+        "year": 1918,
+        "pages": 141,
+        "isbn13": "978-1-4542-0316-2",
+        "rating": 0.88,
+        "price": 631.6,
+        "author": [
+            "Matthew Murphy",
+            "Dean Castillo"
+        ]
+    }
+},
+{
+    "model": "shop_final.book",
+    "pk": 100,
+    "fields": {
+        "title": "Над пропастью во ржи",
+        "year": 1808,
+        "pages": 197,
+        "isbn13": "978-1-5348-6906-6",
+        "rating": 3.21,
+        "price": 1807.0,
+        "author": [
+            "Michael Rivera"
+        ]
+    }
+}
+]

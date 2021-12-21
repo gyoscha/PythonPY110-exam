@@ -15,8 +15,50 @@ def main(pk=1):
     :return: Функция ничего не возвращает.
     """
     gen_book = task(pk)
-    for _ in range(100):
-        print(json.dumps(next(gen_book), indent=4, ensure_ascii=False))
+
+    with open('books.json', 'w', encoding='utf-8') as file:
+        file.write('[')
+        for _ in range(100):
+            print(json.dump(next(gen_book), file, indent=4, ensure_ascii=False))
+            file.write(',\n')
+        file.write(']')
+
+
+def max_len_valid(max_len: int):
+    """
+    Фабрика декораторов для валидации названия книги: соответствует ли она максимальной длине или нет.
+
+    :param max_len: Максимальая длина названия книги
+    :return:
+    """
+
+    def decorator(fn):
+        def wrapper():
+            result = fn()
+            if len(result) <= max_len:
+                print('Валидация названия книги - done')
+            else:
+                raise ValueError('Валидация названия книги не пройдена. Значение больше максимальной длины')
+
+            return result
+        return wrapper
+    return decorator
+
+
+@max_len_valid(19)
+def random_book() -> str:
+    """
+    Выбирает случаное название книги из 100 книг.
+
+    :return: Название случайной книги.
+    """
+    with open('books.json') as f:
+        json_data = json.load(f)
+
+    exr = random.choice([i['fields']['title'] for i in json_data])
+    print(exr)
+
+    return exr
 
 
 def task(pk: int) -> Iterator[dict]:
@@ -129,4 +171,6 @@ if __name__ == '__main__':
     """
     Формируем список из 100 книг в читабельном виде
     """
-    main()
+    # main()
+
+    random_book()
